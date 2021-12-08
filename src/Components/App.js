@@ -1,4 +1,5 @@
 import React from 'react'; 
+import 'moment/locale/es-mx';
 import PeliculasLista from "./Peliculas/PeliculasLista";
 import PeliculasDetalle from "./Peliculas/PeliculasDetalle";
 import PeliculasForm from "./Peliculas/PeliculasForm";
@@ -33,7 +34,6 @@ class App extends React.Component {
             peliculaActual: pelicula
         })
     }
-
     render(){
         return (
             <div>

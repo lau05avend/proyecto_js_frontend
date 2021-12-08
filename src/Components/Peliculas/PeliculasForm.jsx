@@ -78,7 +78,7 @@ class PeliculasForm extends React.Component{
                         </div>
                         <div className="row">
                             <div className="input-field col s6">
-                                <input id="popularidad" ref="popularidad" type="number" className="validate" />
+                                <input id="popularidad" ref="popularidad" step=".01" type="number" className="validate" />
                                 <label htmlFor="popularidad">Popularidad: </label>
                             </div>
                         </div>
